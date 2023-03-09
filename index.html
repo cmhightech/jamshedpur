@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="index_1.html">About</a>
+        <a href="index_2.html">Terms</a>
+        <a href="index_3.html">Contact</a>
+        <a id="topnav-right" href="login.html"><button class="btn btn-light" type="Login">Login</button></a>
+        <a id="topnav-right" href="SignUp.html"><button class="btn btn-light" type="SignUp">SignUp</button></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+      <script>
+        function myFunction() {
+         var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+            x.className += " responsive";
+            } else {
+            x.className = "topnav";
+            }
+        }
+      </script>
+
+      <!-- Video -->
+
+      <div>
+        <video class="vid1" src="video1.mp4" controls autoplay loop ></video>
+        <p >
+          <h1 align="center">About Jamshedpur</h1>
+          Well known as the steel city of India, Jamshedpur derives its name from its founder Jamshedji Tata who had the vision of a bright future in making it a well planned industrial city. His son Dorabji Tata set up India’s first iron and steel company here during the British Raj. Jamshedpur is also known by its fascinating nicknames of Tatanagar Steel City or simply Tata.
+        </p>
+      </div>
+
+      <!-- Curousel -->
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="AJU-3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="AJU-4.png"d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img src="AJU-7.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Card -->
+
+      <div class="flexbox">
+        <div class="card">
+            <img src="image1.jpg" class="card-img" alt="">
+            <h3>Pm Mall</h3>
+            <p class="desc">P&M Hi-Tech City Centre Mall[3] in the city of Jamshedpur, Jharkhand, is the one of the largest shopping malls in eastern India. It has a gross lease-able (retail) area of 600,000 sq ft Film director Prakash Jha & R.K.Aggarwal are the builders of the mall.It is located at Outer Circle Road, Bistupur.</p>
+            <button class="bttn" onclick="location.href='https://www.citycentretatanagar.in/'">Link</button>
+        </div>
+        <div class="card">
+            <img src="image2.jpg" class="card-img" alt="">
+            <h3>Tatanagar Junction</h3>
+            <p class="desc">Tatanagar Junction railway station, station code TATA, is the main railway station serving the city of Jamshedpur in the Indian state of Jharkhand. It is located on the Howrah–Nagpur–Mumbai line of the Indian Railways. It has 6 platforms and handles around 100 trains each day.</p>
+            <button class="bttn" onclick="location.href='https://indiarailinfo.com/arrivals/tatanagar-junction-tata/168'">Link</button>
+        </div>
+        <div class="card">
+            <img src="image3.jpg" class="card-img" alt="">
+            <h3>TATA Steel</h3>
+            <p class="desc">Tata Steel Limited is an Indian multinational steel-making company, based in Jamshedpur, Jharkhand and headquartered in Mumbai, Maharashtra. It is a part of the Tata Group.</p>
+            <button class="bttn" onclick="location.href='https://www.tatasteel.com/'">Link</button>
+        </div>
+        <div class="card">
+          <img src="image4.jpg" class="card-img" alt="">
+          <h3>Arka Jain University</h3>
+          <p class="desc">ARKA JAIN University, is fastest growing university of Jharkhand and the 1st Private University of Kolhan Region, is a unit of JAIN Group, Bengaluru.</p>
+          <button class="bttn" onclick="location.href='https://arkajainuniversity.ac.in/'">Link</button>
+        </div>
+      </div>
+
+      <!-- Video -->
+
+    <div>
+      <video class="vid2" src="video2.mp4" controls loop ></video>
+      <p>
+        <h1 align="center">Brief History of Jamshedpur</h1>
+        History of Jamshedpur is linked with the setting up of Tata Steel Plant. In the April of 1904, Jamshedji Tata began his search for a site in India rich in iron, coal, limestone and water resources. This grueling search ended after three good years at the village called Sakchi in the midst of densely forested stretches of Chota Nagpur plateau. He began with a vision of a huge industrial city with impeccable infrastructure and an ideal city. The result of this vision was realized in the setting up of the Tata Steel Company as only the first baby step. In a letter to his son, Dorabji Tata, he had penned down his ideas of wide streets bordered with fast growing variety of tress, many open spaces such as parks and play grounds. He also wanted to make this city a welcoming cosmopolitan and thus envisioned building of temples, mosques and churches alike.
+      </p>
+    </div>
+
+    <!-- Footer -->
+
+  <footer>
+      <div class="content">
+        <div class="top">
+          <div class="logo-details">
+            <i class="fab fa-slack"></i>
+            <span class="logo_name">jamshedpur</span>
+          </div>
+          <div class="media-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="link-boxes">
+          <ul class="box">
+            <p class="link_name">
+              “I don’t believe in taking the right decision. I take decision and then make them Right” 
+            </p>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Company</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index_3.html">Contact us</a></li>
+            <li><a href="index_1.html">About us</a></li>
+            <li><a href="index.html">Vision</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Hotels</li>
+            <li><a href="#">Novanta</a></li>
+            <li><a href="#">The cruze</a></li>
+            <li><a href="#">Alchor</a></li>
+            <li><a href="#">Ramada</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Travels</li>
+            <li><a href="#">Tata nagar junction</a></li>
+            <li><a href="#">Mango bus stand</a></li>
+            <li><a href="#">Sonari Airport</a></li>
+            <li><a href="#">Bistupur bus stand</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Tourist place</li>
+            <li><a href="#">Jublie park</a></li>
+            <li><a href="#">Dalma</a></li>
+            <li><a href="#">PM mall</a></li>
+            <li><a href="#">Diomand park</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-details">
+        <div class="bottom_text">
+          <span class="copyright_text">Copyright &copy; 2023 <a href="login.html">CodingWorld</a>All rights reserved</span>
+          <span class="policy_terms">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & condition</a>
+          </span>
+        </div>
+      </div>
+  </footer>
+</body>
+</html>
